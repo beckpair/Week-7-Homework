@@ -1,0 +1,27 @@
+.ct-nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+ul#horizontal-list{
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+ul#horizontal-list li, ul#horizontal-list a{
+    display:inline;
+    text-decoration:none;
+    padding: 0.5vw;
+    color:black;
+}
+
+.container-fluid {
+    background-image:linear-gradient(to right bottom, rgb(255,159,0), rgb(255,89,0), rgb(255,4,0))
+}
+
+.list-group-item {
+    width: 60vw;
+    margin: auto;
+}
